@@ -14,7 +14,7 @@ def getPlugins(source, output = "custom", plugins = None, folder = "plugins"):
         subprocess.run(["git", "clone", source, temp], check=True)
         for plugin in plugins:
             src_path = os.path.join(temp, "src", folder, plugin)
-            dest_path = os.path.join(directory, "../../src/", output, plugin)
+            dest_path = os.path.join(directory, "../src/", output, plugin)
 
             if os.path.exists(src_path):
                 shutil.move(src_path, dest_path)

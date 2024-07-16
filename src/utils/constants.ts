@@ -651,6 +651,137 @@ export const SuncordDevs = /* #__PURE__*/ Object.freeze({
     },
 } satisfies Record<string, Dev>);
 
+export const EquicordDevs = Object.freeze({
+    nexpid: {
+        name: "Nexpid",
+        id: 853550207039832084n
+    },
+    FoxStorm1: {
+        name: "FoxStorm1",
+        id: 789872551731527690n
+    },
+    camila314: {
+        name: "camila314",
+        id: 738592270617542716n
+    },
+    Wolfie: {
+        name: "wolfieeeeeeee",
+        id: 347096063569559553n
+    },
+    ryan: {
+        name: "ryan",
+        id: 479403382994632704n
+    },
+    thororen: {
+        name: "thororen",
+        id: 848339671629299742n
+    },
+    MrDiamond: {
+        name: "MrDiamond",
+        id: 523338295644782592n
+    },
+    Fres: {
+        name: "fres",
+        id: 843448897737064448n
+    },
+    Dams: {
+        name: "Dams",
+        id: 769939285792653325n
+    },
+    KawaiianPizza: {
+        name: "KawaiianPizza",
+        id: 501000986735673347n,
+    },
+    Perny: {
+        name: "Perny",
+        id: 1101508982570504244n,
+    },
+    Jaxx: {
+        name: "Jaxx",
+        id: 901016640253227059n,
+    },
+    Balaclava: {
+        name: "Balaclava",
+        id: 854886148455399436n
+    },
+    dat_insanity: {
+        name: "dat_insanity",
+        id: 0n,
+    },
+    coolesding: {
+        name: "cooles",
+        id: 406084422308331522n,
+    },
+    KrystalSkull: {
+        name: "krystalskullofficial",
+        id: 929208515883569182n
+    },
+    SerStars: {
+        name: "SerStars",
+        id: 861631850681729045n
+    },
+    nyx: {
+        name: "verticalsync",
+        id: 328165170536775680n,
+    },
+    MaxHerbold: {
+        name: "MaxHerbold",
+        id: 1189527130611138663n,
+    },
+    Combatmaster: {
+        name: "Combatmaster331",
+        id: 790562534503612437n
+    },
+    Megal: {
+        name: "Megal",
+        id: 387790666484285441n
+    },
+    Cortex: {
+        name: "Cortex",
+        id: 825069530376044594n,
+    },
+    Woosh: {
+        name: "w00shh.",
+        id: 689165844835860522n,
+    },
+    Hanzy: {
+        name: "hanzydev",
+        id: 1093131781043126322n,
+    },
+    zoodogood: {
+        name: "zoodogood",
+        id: 921403577539387454n,
+    },
+    Drag: {
+        name: "dragalt_",
+        id: 1189903210564038697n,
+    },
+    bhop: {
+        name: "femeie",
+        id: 442626774841556992n,
+    },
+    Panniku: {
+        name: "Panniku",
+        id: 703634705152606318n,
+    },
+    Tolgchu: {
+        name: "✨Tolgchu✨",
+        id: 329671025312923648n,
+    },
+    DaBluLite: {
+        name: "DaBluLite",
+        id: 582170007505731594n,
+    },
+    kvba: {
+        name: "kvba",
+        id: 105170831130234880n,
+    },
+    Fafa: {
+        name: "Fafa",
+        id: 428188716641812481n,
+    },
+} satisfies Record<string, Dev>);
+
 // iife so #__PURE__ works correctly
 export const DevsById = /* #__PURE__*/ (() =>
     Object.freeze(Object.fromEntries(
@@ -663,6 +794,14 @@ export const DevsById = /* #__PURE__*/ (() =>
 export const SuncordDevsById = /* #__PURE__*/ (() =>
     Object.freeze(Object.fromEntries(
         Object.entries(SuncordDevs)
+            .filter(d => d[1].id !== 0n)
+            .map(([_, v]) => [v.id, v] as const)
+    ))
+)() as Record<string, Dev>;
+
+export const EquicordDevsById = /* #__PURE__*/ (() =>
+    Object.freeze(Object.fromEntries(
+        Object.entries(EquicordDevs)
             .filter(d => d[1].id !== 0n)
             .map(([_, v]) => [v.id, v] as const)
     ))

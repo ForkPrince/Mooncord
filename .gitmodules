@@ -4,3 +4,6 @@
 [submodule "src/mooncordplugins/gensokyoRadio.desktop"]
 	path = src/mooncordplugins/gensokyoRadio.desktop
 	url = https://github.com/ForkPrince/GensokyoRadioRPC.git
+[submodule "src/mooncordplugins/keywordNotify"]
+	path = src/mooncordplugins/keywordNotify
+	url = https://github.com/camila314/vencord-KeywordNotify
