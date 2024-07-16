@@ -4,10 +4,9 @@ Mooncord is a fork of [Vencord](https://github.com/Vendicated/Vencord), [Suncord
 
 You can join our [discord server](https://discord.com/invite/zXnVNWjwvy).<br><br></br></br></br></br>
 
-<details>
-  <summary>Why does Mooncord exist?</summary>
-  Mooncord started as a fork, adding modified plugins I made for Vencord but then I found <a href="https://github.com/verticalsync/Suncord">Suncord</a> and <a href="https://github.com/Equicord/Equicord">Equicord</a> so decided to make the ultimate fork by combining both.
-</details>
+## Why does Mooncord exist?
+
+Mooncord started as a fork, adding custom plugins I developed. However, after discovering <a href="https://github.com/verticalsync/Suncord">Suncord</a> and <a href="https://github.com/Equicord/Equicord">Equicord</a>, I decided to create the ultimate fork by combining both projects.
 
 ## Installing & Uninstalling
 
