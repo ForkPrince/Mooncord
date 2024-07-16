@@ -3,6 +3,7 @@ node_modules
 
 *.exe
 suncord_installer
+vencord_installer
 
 .idea
 .DS_Store

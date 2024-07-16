@@ -100,7 +100,7 @@ async function init() {
                 await update();
                 if (Settings.autoUpdateNotification)
                     setTimeout(() => showNotification({
-                        title: "Suncord has been updated!",
+                        title: "Mooncord has been updated!",
                         body: "Click here to restart",
                         permanent: true,
                         noPersist: true,
@@ -110,7 +110,7 @@ async function init() {
             }
 
             setTimeout(() => showNotification({
-                title: "A Suncord update is available!",
+                title: "A Mooncord update is available!",
                 body: "Click here to view the update",
                 permanent: true,
                 noPersist: true,
@@ -128,7 +128,7 @@ async function init() {
                 "Webpack has finished initialising, but some patches haven't been applied yet.",
                 "This might be expected since some Modules are lazy loaded, but please verify",
                 "that all plugins are working as intended.",
-                "You are seeing this warning because this is a Development build of Suncord.",
+                "You are seeing this warning because this is a Development build of Mooncord.",
                 "\nThe following patches have not been applied:",
                 "\n\n" + pendingPatches.map(p => `${p.plugin}: ${p.find}`).join("\n")
             );

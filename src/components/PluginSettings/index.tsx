@@ -181,7 +181,7 @@ function ExcludedPluginsList({ search }: { search: string; }) {
         discordDesktop: "Discord Desktop app",
         vencordDesktop: "Sunroof app",
         web: "Sunroof app and the Web version of Discord",
-        dev: "Developer version of Suncord"
+        dev: "Developer version of Mooncord"
     };
 
     return (
@@ -296,7 +296,7 @@ export default function PluginSettings() {
 
         if (isRequired) {
             const tooltipText = p.required
-                ? "This plugin is required for Suncord to function."
+                ? "This plugin is required for Mooncord to function."
                 : makeDependencyList(depMap[p.name]?.filter(d => settings.plugins[d].enabled));
 
             requiredPlugins.push(

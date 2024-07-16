@@ -1,4 +1,4 @@
-# The documentation is the same as Vencord because we have just added plugins on top or such, so everything will be the same, however do not make issues on Vencord if you use Suncord unless redirected by a staff member for specific reasons.
+# The documentation is the same as Vencord because we have just added plugins on top or such, so everything will be the same, however do not make issues on Vencord if you use Mooncord unless redirected by a staff member for specific reasons.
 
 # Contributing to Vencord
 

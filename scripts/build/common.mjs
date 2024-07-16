@@ -46,7 +46,7 @@ export const gitHash = process.env.SUNCORD_HASH || execSync("git rev-parse --sho
 
 export const banner = {
     js: `
-// Suncord ${gitHash}
+// Mooncord ${gitHash}
 // Standalone: ${IS_STANDALONE}
 // Platform: ${IS_STANDALONE === false ? process.platform : "Universal"}
 // Updater Disabled: ${IS_UPDATER_DISABLED}

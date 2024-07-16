@@ -34,9 +34,9 @@ function BackupRestoreTab() {
                 </Flex>
             </Card>
             <Text variant="text-md/normal" className={Margins.bottom8}>
-                You can import and export your Suncord settings as a JSON file.
+                You can import and export your Mooncord settings as a JSON file.
                 This allows you to easily transfer your settings to another device,
-                or recover your settings after reinstalling Suncord or Discord.
+                or recover your settings after reinstalling Mooncord or Discord.
             </Text>
             <Text variant="text-md/normal" className={Margins.bottom8}>
                 Settings Export contains:

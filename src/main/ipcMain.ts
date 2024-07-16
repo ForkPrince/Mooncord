@@ -119,7 +119,7 @@ export function initIpc(mainWindow: BrowserWindow) {
 }
 
 ipcMain.handle(IpcEvents.OPEN_MONACO_EDITOR, async () => {
-    const title = "Suncord QuickCSS Editor";
+    const title = "QuickCSS Editor";
     const existingWindow = BrowserWindow.getAllWindows().find(w => w.title === title);
     if (existingWindow && !existingWindow.isDestroyed()) {
         existingWindow.focus();

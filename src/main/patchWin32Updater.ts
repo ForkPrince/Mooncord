@@ -53,7 +53,7 @@ function patchLatest() {
 
         if (!existsSync(app) || statSync(app).isDirectory()) return;
 
-        console.info("[Suncord] Detected Host Update. Repatching...");
+        console.info("[Mooncord] Detected Host Update. Repatching...");
 
         renameSync(app, _app);
         mkdirSync(app);
@@ -63,7 +63,7 @@ function patchLatest() {
         }));
         writeFileSync(join(app, "index.js"), `require(${JSON.stringify(join(__dirname, "patcher.js"))});`);
     } catch (err) {
-        console.error("[Suncord] Failed to repatch latest host update", err);
+        console.error("[Mooncord] Failed to repatch latest host update", err);
     }
 }
 

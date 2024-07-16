@@ -100,7 +100,7 @@ export default definePlugin({
         return [
             {
                 section: SectionTypes.HEADER,
-                label: "Suncord",
+                label: "Mooncord",
                 className: "vc-settings-header"
             },
             {
@@ -200,7 +200,7 @@ export default definePlugin({
     options: {
         settingsLocation: {
             type: OptionType.SELECT,
-            description: "Where to put the Suncord settings section",
+            description: "Where to put the Mooncord settings section",
             options: [
                 { label: "At the very top", value: "top" },
                 { label: "Above the Nitro section", value: "aboveNitro", default: true },
@@ -238,7 +238,7 @@ export default definePlugin({
     getInfoRows() {
         const { electronVersion, chromiumVersion, additionalInfo } = this;
 
-        const rows = [`Suncord ${gitHash}${additionalInfo}`];
+        const rows = [`Mooncord ${gitHash}${additionalInfo}`, "Powered by Vencord, Suncord and Equicord"];
 
         if (electronVersion) rows.push(`Electron ${electronVersion}`);
         if (chromiumVersion) rows.push(`Chromium ${chromiumVersion}`);

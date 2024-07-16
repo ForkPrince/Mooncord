@@ -86,7 +86,7 @@ function toCodeBlock(s: string, indentation = 0, isDiscord = false) {
 async function printReport() {
     console.log();
 
-    console.log("# Suncord Report" + (CANARY ? " (Canary)" : ""));
+    console.log("# Mooncord Report" + (CANARY ? " (Canary)" : ""));
 
     console.log();
 

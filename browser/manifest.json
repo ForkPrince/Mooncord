@@ -2,10 +2,10 @@
     "manifest_version": 3,
     "minimum_chrome_version": "111",
 
-    "name": "Suncord Web",
+    "name": "Mooncord Web",
     "description": "Fork of vencord",
     "author": "verticalsync",
-    "homepage_url": "https://github.com/verticalsync/Suncord",
+    "homepage_url": "https://github.com/ForkPrince/Mooncord",
     "icons": {
         "128": "icon.png"
     },

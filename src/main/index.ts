@@ -58,8 +58,8 @@ if (IS_VESKTOP || !IS_VANILLA) {
         try {
             if (RendererSettings.store.enableReactDevtools)
                 installExt("fmkadmapgofadopljbjfkapdkoienihi")
-                    .then(() => console.info("[Suncord] Installed React Developer Tools"))
-                    .catch(err => console.error("[Suncord] Failed to install React Developer Tools", err));
+                    .then(() => console.info("[Mooncord] Installed React Developer Tools"))
+                    .catch(err => console.error("[Mooncord] Failed to install React Developer Tools", err));
         } catch { }
 
 

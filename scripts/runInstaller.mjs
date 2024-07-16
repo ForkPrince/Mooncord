@@ -63,7 +63,7 @@ async function ensureBinary() {
 
     const res = await fetch(BASE_URL + filename, {
         headers: {
-            "User-Agent": "Suncord (https://github.com/verticalsync/Suncord)",
+            "User-Agent": "Mooncord (https://github.com/ForkPrince/Mooncord)",
             "If-None-Match": etag
         }
     });
@@ -97,7 +97,7 @@ async function ensureBinary() {
                 execSync(cmd);
             } catch { }
         };
-        logAndRun(`sudo spctl --add '${outputFile}' --label "Suncord Installer"`);
+        logAndRun(`sudo spctl --add '${outputFile}' --label "Mooncord Installer"`);
         logAndRun(`sudo xattr -d com.apple.quarantine '${outputFile}'`);
     } else {
         // WHY DOES NODE FETCH RETURN A WEB STREAM OH MY GOD

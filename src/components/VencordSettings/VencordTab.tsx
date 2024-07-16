@@ -99,7 +99,7 @@ function VencordSettings() {
         ];
 
     return (
-        <SettingsTab title="Suncord Settings">
+        <SettingsTab title="Settings">
             <DiscordInviteCard invite={discordInvite} />
             <Forms.FormSection title="Quick Actions">
                 <QuickActionCard>
@@ -226,7 +226,7 @@ function VencordSettings() {
                     serialize={identity} />
             </>}
 
-            <Forms.FormSection className={Margins.top16} title="Suncord Notifications" tag="h5">
+            <Forms.FormSection className={Margins.top16} title="Notifications" tag="h5">
                 <Flex>
                     <Button onClick={openNotificationSettingsModal}>
                         Notification Settings
@@ -273,4 +273,4 @@ function DiscordInviteCard({ invite }: DiscordInviteProps) {
     );
 }
 
-export default wrapTab(VencordSettings, "Suncord Settings");
+export default wrapTab(VencordSettings, "Settings");

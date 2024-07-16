@@ -26,7 +26,7 @@ import { openUpdaterModal } from "@components/VencordSettings/UpdaterTab";
 import { Devs, SUPPORT_CHANNEL_ID } from "@utils/constants";
 import { sendMessage } from "@utils/discord";
 import { Margins } from "@utils/margins";
-import { isPluginDev, isSuncordPluginDev, tryOrElse } from "@utils/misc";
+import { isEquicordPluginDev, isPluginDev, isSuncordPluginDev, tryOrElse } from "@utils/misc";
 import { relaunch } from "@utils/native";
 import { onlyOnce } from "@utils/onlyOnce";
 import { makeCodeblock } from "@utils/text";
@@ -167,7 +167,7 @@ export default definePlugin({
             if (channelId !== SUPPORT_CHANNEL_ID) return;
 
             const selfId = UserStore.getCurrentUser()?.id;
-            if (!selfId || isPluginDev(selfId) || isSuncordPluginDev(selfId)) return;
+            if (!selfId || isPluginDev(selfId) || isSuncordPluginDev(selfId) || isEquicordPluginDev(selfId)) return;
 
             if (!IS_UPDATER_DISABLED) {
                 await checkForUpdatesOnce().catch(() => { });
@@ -227,7 +227,7 @@ export default definePlugin({
     },
 
     ContributorDmWarningCard: ErrorBoundary.wrap(({ userId }) => {
-        if (!isPluginDev(userId) || !isSuncordPluginDev(userId)) return null;
+        if (!isPluginDev(userId) || !isSuncordPluginDev(userId) || !isEquicordPluginDev(userId)) return null;
         if (RelationshipStore.isFriend(userId) || isPluginDev(UserStore.getCurrentUser()?.id) || isSuncordPluginDev(UserStore.getCurrentUser()?.id)) return null;
 
         return (

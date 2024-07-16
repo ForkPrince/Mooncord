@@ -24,7 +24,7 @@ import { initIpc } from "./ipcMain";
 import { RendererSettings } from "./settings";
 import { IS_VANILLA } from "./utils/constants";
 
-console.log("[Suncord] Starting up...");
+console.log("[Mooncord] Starting up...");
 
 // Our injector file at app/index.js
 const injectorPath = require.main!.filename;
@@ -129,7 +129,7 @@ if (!IS_VANILLA) {
         }
     });
 
-    process.env.DATA_DIR = join(app.getPath("userData"), "..", "Suncord");
+    process.env.DATA_DIR = join(app.getPath("userData"), "..", "Mooncord");
 
     // Monkey patch commandLine to:
     // - disable WidgetLayering: Fix DevTools context menus https://github.com/electron/electron/issues/38790
@@ -154,8 +154,8 @@ if (!IS_VANILLA) {
     app.commandLine.appendSwitch("disable-background-timer-throttling");
     app.commandLine.appendSwitch("disable-backgrounding-occluded-windows");
 } else {
-    console.log("[Suncord] Running in vanilla mode. Not loading Suncord");
+    console.log("[Mooncord] Running in vanilla mode. Not loading Mooncord");
 }
 
-console.log("[Suncord] Loading original Discord app.asar");
+console.log("[Mooncord] Loading original Discord app.asar");
 require(require.main!.filename);

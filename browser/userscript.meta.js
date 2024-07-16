@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name            Suncord
+// @name            Mooncord
 // @description     A Discord client mod - Web version
 // @version         %version%
-// @author          verticalsync (https://github.com/verticalsync)
-// @namespace       https://github.com/verticalsync/Suncord
-// @supportURL      https://github.com/verticalsync/Suncord
+// @author          ForkPrince (https://github.com/ForkPrince)
+// @namespace       https://github.com/ForkPrince/Mooncord
+// @supportURL      https://github.com/ForkPrince/Mooncord
 // @license         GPL-3.0
 // @match           *://*.discord.com/*
 // @grant           GM_xmlhttpRequest
@@ -20,4 +20,4 @@
 // to overwrite stuff on the window on sites that use CSP. Use Tampermonkey or use a chromium based browser
 // https://github.com/violentmonkey/violentmonkey/issues/997
 
-// this is a compiled and minified version of Suncord. For the source code, visit the GitHub repo
+// this is a compiled and minified version of Mooncord. For the source code, visit the GitHub repo
