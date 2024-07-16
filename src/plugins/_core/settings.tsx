@@ -105,7 +105,7 @@ export default definePlugin({
             },
             {
                 section: "SuncordSettings",
-                label: "Suncord",
+                label: "Settings",
                 element: VencordTab,
                 className: "vc-settings"
             },
