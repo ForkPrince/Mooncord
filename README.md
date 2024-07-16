@@ -2,7 +2,7 @@
 
 Mooncord is a fork of [Vencord](https://github.com/Vendicated/Vencord), [Suncord](https://github.com/verticalsync/Suncord) and [Equicord](https://github.com/Equicord/Equicord).
 
-You can join our [discord server](https://discord.com/invite/zXnVNWjwvy).<br><br></br></br>
+You can join our [discord server](https://discord.com/invite/zXnVNWjwvy).<br><br></br></br></br></br></br>
 
 <details>
   <summary>Why does Mooncord exist?</summary>
