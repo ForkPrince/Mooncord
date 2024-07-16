@@ -270,6 +270,7 @@ function isPluginFile({ name }: { name: string; }) {
 (async () => {
     parseDevs();
     parseSuncordDevs();
+    parseEquicordDevs();
 
     const plugins = [] as PluginData[];
     const readmes = {} as Record<string, string>;
