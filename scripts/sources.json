@@ -1,0 +1,43 @@
+[
+    {
+        "source": "https://github.com/verticalsync/Suncord.git",
+        "plugins": [
+            "CopyUserMention",
+            "CustomAppIcons",
+            "Timezones",
+            "allCallTimers",
+            "amITyping",
+            "betterBanReasons",
+            "betterMicrophone.desktop",
+            "betterScreenshare.dev",
+            "commandPalette",
+            "discordColorways",
+            "doubleCounterVerifyBypass",
+            "emojiDumper",
+            "followUser",
+            "globalBadges",
+            "godMode",
+            "hideMessage",
+            "holyNotes",
+            "iRememberYou",
+            "mediaDownloader.desktop",
+            "messageColors",
+            "messageLoggerEnhanced",
+            "notifyUserChanges",
+            "philsPluginLibrary",
+            "platformSpoofer",
+            "purgeMessages",
+            "questCompleter",
+            "repeatMessage",
+            "runInConsole",
+            "showBadgesInChat",
+            "soundBoardLogger",
+            "suncordToolbox",
+            "themeLibrary",
+            "userpfp",
+            "voiceChatUtilities"
+        ],
+        "folder": "suncordplugins",
+        "output": "sunPlugins"
+    }
+]

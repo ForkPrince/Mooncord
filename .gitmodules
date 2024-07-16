@@ -1,0 +1,6 @@
+[submodule "src/mooncordplugins/translatePlus"]
+	path = src/mooncordplugins/translatePlus
+	url = https://github.com/ForkPrince/TranslatePlus.git
+[submodule "src/mooncordplugins/gensokyoRadio.desktop"]
+	path = src/mooncordplugins/gensokyoRadio.desktop
+	url = https://github.com/ForkPrince/GensokyoRadioRPC.git
