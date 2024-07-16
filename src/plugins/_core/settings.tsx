@@ -238,7 +238,7 @@ export default definePlugin({
     getInfoRows() {
         const { electronVersion, chromiumVersion, additionalInfo } = this;
 
-        const rows = [`Mooncord ${gitHash}${additionalInfo}`, "Powered by Vencord, Suncord and Equicord"];
+        const rows = [`Mooncord ${gitHash}${additionalInfo}`, "Powered by Vencord", "Fork of Suncord and Equicord"];
 
         if (electronVersion) rows.push(`Electron ${electronVersion}`);
         if (chromiumVersion) rows.push(`Chromium ${chromiumVersion}`);

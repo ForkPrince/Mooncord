@@ -49,7 +49,7 @@ function VencordSettings() {
     });
     const settings = useSettings();
 
-    const discordInvite = "VasF3Ma4Ab";
+    const discordInvite = "zXnVNWjwvy";
     // const donateImage = React.useMemo(() => Math.random() > 0.5 ? DEFAULT_DONATE_IMAGE : SHIGGY_DONATE_IMAGE, []);
 
     const isWindows = navigator.platform.toLowerCase().startsWith("win");
@@ -248,8 +248,8 @@ function DiscordInviteCard({ invite }: DiscordInviteProps) {
     return (
         <Card className={cl("card", "discordinvite")}>
             <div>
-                <Forms.FormTitle tag="h5">Join the discord!</Forms.FormTitle>
-                <Forms.FormText>Please consider joining the discord for any news on breaking changes, or new bigger updates!</Forms.FormText>
+                <Forms.FormTitle tag="h5">Thanks for using Mooncord!</Forms.FormTitle>
+                <Forms.FormText>Hey, thanks for using Mooncord, a decent fork with a ton of plugins thanks to merged code from other projects. Want to chat? Join my Discord server!</Forms.FormText>
                 <Button
                     style={{ transform: "translateY(2.3em)" }}
                     onClick={async e => {
@@ -262,7 +262,7 @@ function DiscordInviteCard({ invite }: DiscordInviteProps) {
             </div>
             <img
                 role="presentation"
-                src={"https://raw.githubusercontent.com/verticalsync/Suncord/main/src/assets/icon.png"}
+                src={"https://api.serversmp.xyz/upload/6696ae127036ecb33d717ada.webp"}
                 alt=""
                 height={128}
                 style={{
