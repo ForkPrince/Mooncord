@@ -56,7 +56,7 @@ jobs:
                   echo "release_tag=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
             - name: Upload DevBuild as release
-              if: github.repository == 'ForkPrince/Mooncord'
+              if: github.repository == 'MoonHQ/Mooncord'
               run: |
                   gh release upload devbuild --clobber dist/*
                   gh release edit devbuild --title "DevBuild $RELEASE_TAG"

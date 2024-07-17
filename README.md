@@ -1,4 +1,4 @@
-# Mooncord [<img src="https://api.serversmp.xyz/upload/6696ae127036ecb33d717ada.webp" width="225" align="left" alt="Mooncord">](https://github.com/ForkPrince/Mooncord)
+# Mooncord [<img src="https://api.serversmp.xyz/upload/6696ae127036ecb33d717ada.webp" width="225" align="left" alt="Mooncord">](https://github.com/MoonHQ/Mooncord)
 
 Mooncord is a fork of [Vencord](https://github.com/Vendicated/Vencord), [Suncord](https://github.com/verticalsync/Suncord) and [Equicord](https://github.com/Equicord/Equicord).
 

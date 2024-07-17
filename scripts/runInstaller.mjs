@@ -63,7 +63,7 @@ async function ensureBinary() {
 
     const res = await fetch(BASE_URL + filename, {
         headers: {
-            "User-Agent": "Mooncord (https://github.com/ForkPrince/Mooncord)",
+            "User-Agent": "Mooncord (https://github.com/MoonHQ/Mooncord)",
             "If-None-Match": etag
         }
     });

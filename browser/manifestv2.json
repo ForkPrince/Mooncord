@@ -5,7 +5,7 @@
     "name": "Mooncord Web",
     "description": "Fork of vencord",
     "author": "verticalsync",
-    "homepage_url": "https://github.com/ForkPrince/Mooncord",
+    "homepage_url": "https://github.com/MoonHQ/Mooncord",
     "icons": {
         "128": "icon.png"
     },

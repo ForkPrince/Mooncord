@@ -2,9 +2,9 @@
 // @name            Mooncord
 // @description     A Discord client mod - Web version
 // @version         %version%
-// @author          ForkPrince (https://github.com/ForkPrince)
-// @namespace       https://github.com/ForkPrince/Mooncord
-// @supportURL      https://github.com/ForkPrince/Mooncord
+// @author          ForkPrince (https://github.com/MoonHQ)
+// @namespace       https://github.com/MoonHQ/Mooncord
+// @supportURL      https://github.com/MoonHQ/Mooncord
 // @license         GPL-3.0
 // @match           *://*.discord.com/*
 // @grant           GM_xmlhttpRequest
