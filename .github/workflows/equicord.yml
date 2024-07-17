@@ -23,7 +23,7 @@ jobs:
                   python-version: "3.x"
 
             - name: Run Python script
-              run: python path/to/your/script.py
+              run: python scripts/plugins.py
 
             - name: Check for changes
               run: git diff --exit-code || echo "Changes detected"
