@@ -10,3 +10,18 @@
 [submodule "src/mooncordplugins/replaceActivityTypes"]
 	path = src/mooncordplugins/replaceActivityTypes
 	url = https://github.com/nyakowint/replaceActivityTypes.git
+[submodule "src/mooncordplugins/grammarNazi"]
+	path = src/mooncordplugins/grammarNazi
+	url = https://github.com/wont-stream/vencord-grammar-nazi.git
+[submodule "src/mooncordplugins/fakeProfile"]
+	path = src/mooncordplugins/fakeProfile
+	url = https://github.com/sampathgujarathi/fakeProfile.git
+[submodule "src/mooncordplugins/fakeVoiceOptions"]
+	path = src/mooncordplugins/fakeVoiceOptions
+	url = https://github.com/eightcon/FakeVoiceOptions.git
+[submodule "src/mooncordplugins/base64Decoder"]
+	path = src/mooncordplugins/base64Decoder
+	url = https://github.com/ThePirateStoner/vencord-base64-decoder.git
+[submodule "src/mooncordplugins/newPluginsManager"]
+	path = src/mooncordplugins/newPluginsManager
+	url = https://github.com/Sqaaakoi/vc-newPluginsManager.git
