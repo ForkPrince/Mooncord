@@ -6,7 +6,7 @@ You can join our [discord server](https://discord.com/invite/zXnVNWjwvy).<br><br
 
 ## Why does Mooncord exist?
 
-Mooncord started as a fork, adding custom plugins I developed. However, after discovering <a href="https://github.com/verticalsync/Suncord">Suncord</a> and <a href="https://github.com/Equicord/Equicord">Equicord</a>, I decided to create the ultimate fork by combining both projects.
+Mooncord started as a fork of Vencord called Blazecord, adding custom plugins I developed. However, after discovering <a href="https://github.com/verticalsync/Suncord">Suncord</a> and <a href="https://github.com/Equicord/Equicord">Equicord</a>, I decided to create the ultimate fork by combining both projects.
 
 ## Installing & Uninstalling
 
