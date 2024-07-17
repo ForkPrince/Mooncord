@@ -16,12 +16,10 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-import { definePluginSettings } from "@api/Settings";
 import { Devs } from "@utils/constants";
-import definePlugin, { OptionType } from "@utils/types";
-import { Button } from "@webpack/common";
+import definePlugin from "@utils/types";
 
-import { Emitter } from "../philsPluginLibrary";
+import { addSettingsPanelButton, Emitter, removeSettingsPanelButton, ScreenshareSettingsIcon } from "../philsPluginLibrary";
 import { PluginInfo } from "./constants";
 import { openScreenshareModal } from "./modals";
 import { ScreenshareAudioPatcher, ScreensharePatcher } from "./patchers";
@@ -31,20 +29,8 @@ import { initScreenshareAudioStore, initScreenshareStore } from "./stores";
 var screensharePatcher;
 var screenshareAudioPatcher;
 
-const settings = definePluginSettings({
-    openSettings: {
-        description: "",
-        type: OptionType.COMPONENT,
-        component: (() => {
-            return (
-                <Button onClick={() => openScreenshareModal()}>Open Settings</Button>
-            );
-        })
-    }
-});
-
 export default definePlugin({
-    name: "BetterScreenshare",
+    name: "PhilsBetterScreenshare",
     description: "This plugin allows you to further customize your screen sharing.",
     authors: [Devs.philhk, Devs.walrus],
     dependencies: ["PhilsPluginLibrary"],
@@ -65,15 +51,21 @@ export default definePlugin({
         initScreenshareAudioStore();
         screensharePatcher = new ScreensharePatcher().patch();
         screenshareAudioPatcher = new ScreenshareAudioPatcher().patch();
+
+        addSettingsPanelButton({
+            name: PluginInfo.PLUGIN_NAME,
+            icon: ScreenshareSettingsIcon,
+            tooltipText: "Screenshare Settings",
+            onClick: openScreenshareModal
+        });
     },
 
     stop() {
         screensharePatcher?.unpatch();
         screenshareAudioPatcher?.unpatch();
         Emitter.removeAllListeners(PluginInfo.PLUGIN_NAME);
+        removeSettingsPanelButton(PluginInfo.PLUGIN_NAME);
     },
-
-    settings,
 });
 
 export { screenshareAudioPatcher, screensharePatcher };
