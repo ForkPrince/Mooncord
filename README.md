@@ -31,6 +31,8 @@ Use the [Mooncord Installer](https://github.com/MoonHQ/Installer) to install Moo
 - [New Plugins Manager](https://github.com/Sqaaakoi/vc-newPluginsManager)
 - [Custom Sounds](https://github.com/ScattrdBlade/customSounds)
 
+So in total, there are 254 plugins in Mooncord.
+
 ## Disclaimer
 
 Discord is trademark of Discord Inc. and solely mentioned for the sake of descriptivity.
