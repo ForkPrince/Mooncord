@@ -14,10 +14,22 @@ Use the [Mooncord Installer](https://github.com/MoonHQ/Installer) to install Moo
 
 ## Extra included plugins
 
-- All plugins from [Vencord](https://github.com/Vendicated/Vencord)
-- All plugins from [Suncord](https://github.com/verticalsync/Suncord)
-- All plugins from [Equicord](https://github.com/Equicord/Equicord)
-- Added [Translate+](https://github.com/ForkPrince/TranslatePlus) and [Gensokyo Radio RPC](https://github.com/ForkPrince/GensokyoRadioRPC) plugins
+- All plugins from [Vencord](https://github.com/Vendicated/Vencord) (168 plugins)
+- All plugins from [Suncord](https://github.com/verticalsync/Suncord) (43 plugins)
+- All plugins from [Equicord](https://github.com/Equicord/Equicord) (33 plugins)
+
+### Mooncord Extras (10 plugins)
+
+- [Translate+](https://github.com/ForkPrince/TranslatePlus)
+- [Gensokyo Radio RPC](https://github.com/ForkPrince/GensokyoRadioRPC)
+- [Keyword Notify](https://github.com/camila314/vencord-KeywordNotify)
+- [Replace Activity Types](https://github.com/nyakowint/replaceActivityTypes)
+- [Grammar Nazi](https://github.com/wont-stream/vencord-grammar-nazi)
+- [Fake Profile](https://github.com/sampathgujarathi/fakeProfile)
+- [Fake Voice Options](https://github.com/eightcon/FakeVoiceOptions)
+- [Base64 Decoder](https://github.com/ThePirateStoner/vencord-base64-decoder)
+- [New Plugins Manager](https://github.com/Sqaaakoi/vc-newPluginsManager)
+- [Custom Sounds](https://github.com/ScattrdBlade/customSounds)
 
 ## Disclaimer
 
