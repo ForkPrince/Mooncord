@@ -25,3 +25,6 @@
 [submodule "src/mooncordplugins/newPluginsManager"]
 	path = src/mooncordplugins/newPluginsManager
 	url = https://github.com/Sqaaakoi/vc-newPluginsManager.git
+[submodule "src/mooncordplugins/customSounds"]
+	path = src/mooncordplugins/customSounds
+	url = https://github.com/ScattrdBlade/customSounds
