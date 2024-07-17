@@ -10,7 +10,7 @@ Mooncord started as a fork of Vencord called Blazecord, adding custom plugins I 
 
 ## Installing & Uninstalling
 
-TO BE DONE LATER
+Use the [Mooncord Installer](https://github.com/MoonHQ/Installer) to install Mooncord.
 
 ## Extra included plugins
 
