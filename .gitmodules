@@ -7,3 +7,6 @@
 [submodule "src/mooncordplugins/keywordNotify"]
 	path = src/mooncordplugins/keywordNotify
 	url = https://github.com/camila314/vencord-KeywordNotify
+[submodule "src/mooncordplugins/replaceActivityTypes"]
+	path = src/mooncordplugins/replaceActivityTypes
+	url = https://github.com/nyakowint/replaceActivityTypes.git
