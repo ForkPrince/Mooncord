@@ -15,7 +15,7 @@ Use the [Mooncord Installer](https://github.com/MoonHQ/Installer) to install Moo
 ## Extra included plugins
 
 - All plugins from [Vencord](https://github.com/Vendicated/Vencord) (168 plugins)
-- All plugins from [Suncord](https://github.com/verticalsync/Suncord) (42 plugins)
+- All plugins from [Suncord](https://github.com/verticalsync/Suncord) (43 plugins)
 - All plugins from [Equicord](https://github.com/Equicord/Equicord) (33 plugins)
 
 ### Mooncord Extras (10 plugins)
