@@ -23,7 +23,7 @@ jobs:
                   python-version: "3.x"
 
             - name: Delete old plugins
-              run: rm -r src/equicordplugins
+              run: rm -rf src/equicordplugins
 
             - name: Run Python script
               run: python scripts/plugins.py
