@@ -8,6 +8,10 @@ You can join our [discord server](https://discord.com/invite/zXnVNWjwvy).<br><br
 
 Mooncord started as a fork of Vencord called Blazecord, adding custom plugins I developed. However, after discovering <a href="https://github.com/verticalsync/Suncord">Suncord</a> and <a href="https://github.com/Equicord/Equicord">Equicord</a>, I decided to create the ultimate fork by combining both projects.
 
+## Should I use Mooncord?
+
+No, you shouldn't, your probably better off using [Equicord *(personal pick)*](https://github.com/Equicord/Equicord) or [Suncord](https://github.com/verticalsync/Suncord). Mooncord is pretty good, but it's primarily for personal use and I won't be maintaining it frequently unless I notice an issue.
+
 ## Installing & Uninstalling
 
 Use the [Mooncord Installer](https://github.com/MoonHQ/Installer) to install Mooncord.
