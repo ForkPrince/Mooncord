@@ -25,3 +25,6 @@
 [submodule "src/mooncordplugins/customSounds"]
 	path = src/mooncordplugins/customSounds
 	url = https://github.com/ScattrdBlade/customSounds
+[submodule "src/mooncordplugins/base64Decoder"]
+	path = src/mooncordplugins/base64Decoder
+	url = https://github.com/ForkPrince/vencord-base64-decoder.git
