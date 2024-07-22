@@ -19,9 +19,6 @@
 [submodule "src/mooncordplugins/fakeVoiceOptions"]
 	path = src/mooncordplugins/fakeVoiceOptions
 	url = https://github.com/eightcon/FakeVoiceOptions.git
-[submodule "src/mooncordplugins/base64Decoder"]
-	path = src/mooncordplugins/base64Decoder
-	url = https://github.com/ThePirateStoner/vencord-base64-decoder.git
 [submodule "src/mooncordplugins/newPluginsManager"]
 	path = src/mooncordplugins/newPluginsManager
 	url = https://github.com/Sqaaakoi/vc-newPluginsManager.git
