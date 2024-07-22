@@ -609,11 +609,7 @@ export const Devs = /* #__PURE__*/ Object.freeze({
     Fafa: {
         name: "Fafa",
         id: 428188716641812481n,
-    },
-    Prince527: {
-        name: "Prince527",
-        id: 364105797162237952n,
-    },
+    }
 } satisfies Record<string, Dev>);
 
 export const SuncordDevs = /* #__PURE__*/ Object.freeze({
@@ -783,6 +779,46 @@ export const EquicordDevs = Object.freeze({
     Fafa: {
         name: "Fafa",
         id: 428188716641812481n,
+    },
+    Naibuu: {
+        name: "hs50",
+        id: 1120045713867423835n,
+    },
+    Colorman: {
+        name: "colorman",
+        id: 298842558610800650n,
+    },
+    walrus: {
+        name: "walrus",
+        id: 305317288775778306n,
+    },
+    Prince527: {
+        name: "Prince527",
+        id: 364105797162237952n,
+    },
+    unstream: {
+        name: "Unstream",
+        id: 1125315673829154837n,
+    },
+    ThePirateStoner: {
+        name: "ThePirateStoner",
+        id: 1196220620376121381n
+    },
+    Sampath: {
+        name: "Sampath",
+        id: 984015688807100419n,
+    },
+    catcraft: {
+        name: "catcraft",
+        id: 290162449213292546n,
+    },
+    ShadyGoat: {
+        name: "Shady Goat",
+        id: 376079696489742338n,
+    },
+    Joona: {
+        name: "Joona",
+        id: 297410829589020673n
     },
 } satisfies Record<string, Dev>);
 

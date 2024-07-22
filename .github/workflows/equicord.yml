@@ -1,4 +1,4 @@
-name: Update Equicord Plugins
+name: Update Equicord
 
 on:
     schedule:
@@ -25,8 +25,11 @@ jobs:
             - name: Delete old plugins
               run: rm -rf src/equicordplugins
 
-            - name: Run Python script
+            - name: Update Equicord Plugins
               run: python scripts/plugins.py
+
+            - name: Update Equicord Devs
+              run: python scripts/devs.py
 
             - name: Check for changes
               run: git diff --exit-code || echo "Changes detected"
