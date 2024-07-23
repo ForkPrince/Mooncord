@@ -34,8 +34,10 @@ Use the [Mooncord Installer](https://github.com/MoonHQ/Installer) to install Moo
 - [Base64 Decoder](https://github.com/ThePirateStoner/vencord-base64-decoder)
 - [New Plugins Manager](https://github.com/Sqaaakoi/vc-newPluginsManager)
 - [Custom Sounds](https://github.com/ScattrdBlade/customSounds)
+- [Wiggly Text](https://github.com/nexpid/WigglyText)
+- [Music Title RPC](https://github.com/Blackilykat/musicTitleRPC)
 
-So in total, there are 254 plugins in Mooncord.
+So in total, there are 256 plugins in Mooncord.
 
 ## Disclaimer
 

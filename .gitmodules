@@ -28,3 +28,9 @@
 [submodule "src/mooncordplugins/base64Decoder"]
 	path = src/mooncordplugins/base64Decoder
 	url = https://github.com/ForkPrince/vencord-base64-decoder.git
+[submodule "src/mooncordplugins/wigglyText"]
+	path = src/mooncordplugins/wigglyText
+	url = https://github.com/nexpid/WigglyText
+[submodule "src/mooncordplugins/musicTitleRPC"]
+	path = src/mooncordplugins/musicTitleRPC
+	url = https://github.com/Blackilykat/musicTitleRPC
