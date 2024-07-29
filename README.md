@@ -1,5 +1,5 @@
 > [!IMPORTANT]  
-> This fork is deprecated, please use [Mooncord (new)](https://github.com/MoonHQ/Mooncord) or [Equicord](https://github.com/Equicord/Equicord) instead.
+> This fork is deprecated, please use [Equicord](https://github.com/Equicord/Equicord) or wait for [Nextcord](https://github.com/MoonHQ/Nextcord) to be done instead.
 
 # Mooncord [<img src="https://api.serversmp.xyz/upload/6696ae127036ecb33d717ada.webp" width="225" align="left" alt="Mooncord">](https://github.com/MoonHQ/Mooncord)
 
